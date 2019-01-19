@@ -8,7 +8,7 @@
         public int CompanyId { get; set; }
 
         public Address Address { get; set; }
-        public Company Company { get; set; }
+        public virtual Company Company { get; set; }
     }
 }
     
