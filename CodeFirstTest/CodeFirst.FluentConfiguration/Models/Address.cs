@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace CodeFirstTest.Models
+namespace CodeFirst.FluentConfiguration.Models
 {
     public class Address
     {

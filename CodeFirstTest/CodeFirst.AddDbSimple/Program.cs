@@ -1,14 +1,14 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 
-namespace CodeFirstTest
+namespace CodeFirst.AddDbSimple
 {
     class Program
     {
         static void Main(string[] args)
         {
             var optionsBuilder = new DbContextOptionsBuilder<AppContext>();
-            optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=CodeFirstTest;Integrated Security=True;");
+            optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=CodeFirstTestAddDbSimple;Integrated Security=True;");
 
             using (var context = new AppContext(optionsBuilder.Options))
             {

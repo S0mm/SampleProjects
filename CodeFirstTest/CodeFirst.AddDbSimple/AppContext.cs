@@ -1,7 +1,7 @@
-﻿using CodeFirstTest.Models;
+﻿using CodeFirst.AddDbSimple.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace CodeFirstTest
+namespace CodeFirst.AddDbSimple
 {
     public class AppContext : DbContext
     {
