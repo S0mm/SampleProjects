@@ -19,7 +19,7 @@ namespace CodeFirstTest
 
 
 
-            /////
+            Console.WriteLine("Done");
             Console.ReadLine();
         }
     }
