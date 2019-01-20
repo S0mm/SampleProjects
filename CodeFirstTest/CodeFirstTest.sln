@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFirstAddDbSimple", "CodeFirstTest\CodeFirstAddDbSimple.csproj", "{AFC14CE3-830E-411E-A4B4-CAFC14338447}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFirstAddDbSimple", "CodeFirstAddDbSimple\CodeFirstAddDbSimple.csproj", "{AFC14CE3-830E-411E-A4B4-CAFC14338447}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstFluentConfiguration", "CodeFirstFluentConfiguration\CodeFirstFluentConfiguration.csproj", "{2A425562-E1BD-4F7B-8612-4250C2A14802}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{AFC14CE3-830E-411E-A4B4-CAFC14338447}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFC14CE3-830E-411E-A4B4-CAFC14338447}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFC14CE3-830E-411E-A4B4-CAFC14338447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A425562-E1BD-4F7B-8612-4250C2A14802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A425562-E1BD-4F7B-8612-4250C2A14802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A425562-E1BD-4F7B-8612-4250C2A14802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A425562-E1BD-4F7B-8612-4250C2A14802}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
